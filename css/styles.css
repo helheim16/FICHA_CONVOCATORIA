@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body {
+    background-color: #e6e6e6;
+    font-family: 'Nunito', sans-serif;
+    font-size: larger;
+}
+
+#contenedor_ficha {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contenedor_tabla {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.contenedor_tabla thead {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFEEDD;
+}
+
+td {
+    padding: 8px 4px;
+    border-bottom: 1px solid black;
+}
+
+th {
+    background: #95bdeb;
+    padding: 10px 5px;
+    color: #2D2D34;
+}
+
+#btn_solicitar {
+    padding: 10px;
+    background-color: #f8d375;
+    border-style: none;
+    color: #2D2D34;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 70%;
+    border: 3px solid #f7cf6c;
+}
+
+#btn_solicitar:hover {
+    background-color: rgb(255, 189, 22);
+    cursor: pointer;
+    border: 3px solid;
+}
+
+.contenedor_tabla::-webkit-scrollbar {
+    display: none;
+}

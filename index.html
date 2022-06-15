@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Convocatoria</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="contenedor_ficha">
+        <button id="btn_solicitar">SOLICITAR CONVOCTORIA</button>
+        <table id="tabla_convocatorias" class="contenedor_tabla">
+            <thead>
+                <tr>
+                    <th id="titulo-convocatoria" class="titulo_tabla" colspan="3">DATOS DE LA CONVOCATORIA</th>
+                </tr>
+                <tr>
+                    <th>TIPO</th>
+                    <th>NUMERO/AÑO</th>
+                    <th>ASUNTO</th>
+                </tr>
+            </thead>
+        </table>
+        <table id="tabla_datos_pliego" class='contenedor_tabla'>
+            <thead>
+                <tr>
+                    <th id="titulo-pliego" class="titulo_tabla" colspan="5">DATOS DEL PLIEGO</th>
+                </tr>
+                <tr>
+                    <th>Direccion Retiro</th>
+                    <th>Horario de Retiro</th>
+                    <th>Direccion Acto Apertura</th>
+                    <th>Fecha Inicio Apertura</th>
+                    <th>Horario Inicio Apertura</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="contenedor_tabla">
+            <table id="tabla_condiciones_pliego" class="contenedor_tabla">
+                <thead>
+                    <tr>
+                        <th class="titulo_tabla" colspan="3">CONDICIONES DEL PLIEGO</th>
+                    </tr>
+                    <tr>
+                        <th>Nro</th>
+                        <th>Titulo</th>
+                        <th>Descripcion</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <table id="tabla_articulos_solicitados" class="contenedor_tabla">
+            <thead>
+                <tr>
+                    <th class="titulo_tabla" colspan="5">ARTICULOS SOLICITADOS</th>
+                </tr>
+                <tr>
+                    <th>Descripcion</th>
+                    <th>Cantidad</th>
+                    <th>Unidad de Medida</th>
+                    <th>Precio Estimado</th>
+                    <th>Area Destino</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+
+</html>
